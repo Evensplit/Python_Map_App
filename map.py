@@ -3,7 +3,7 @@ from asyncore import read
 from turtle import fillcolor
 import folium
 import pandas
-data = pandas.read_csv("Volcanoes.txt")
+data = pandas.read_csv("Volcanoes.csv")
 #the variable lat and lon now changes the "LAT" data frame series into a list format rather than a column layout
 lat = list(data["LAT"])
 lon = list(data["LON"])
